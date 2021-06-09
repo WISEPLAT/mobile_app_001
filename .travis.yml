@@ -32,7 +32,7 @@ install:
   - dpl releases --token $GITHUB_TOKEN --file "bin/mobileapp001-0.3-armeabi-v7a-debug.apk" --tag_name "v.0.3"
   - echo "TODO COMPILE 64bit"
   - ls -l /home/travis/
-  - rm -r -f /home/travis/.buildozer
+  - rm -r -f /home/travis/build/WISEPLAT/mobile_app_001/.buildozer
   - ls -l /home/travis/
   - ls -l
   - yes | cp -f buildozer-64bit.spec buildozer.spec
